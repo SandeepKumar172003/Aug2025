@@ -10,7 +10,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+	
 public class lab9A_testNG {
 	@Parameters("browser")
   @Test
