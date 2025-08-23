@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class tc008_Alert {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)throws Exception {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();

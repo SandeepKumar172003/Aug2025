@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  
 public class tc005_keys {
  
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
@@ -20,7 +20,7 @@ public class tc005_keys {
 			System.out.println("email create is displayed");
 		driver.findElement(By.id("email_create")).clear();
 		
-		driver.findElement(By.id("email_create")).sendKeys("assfsdf@gmail.com");
+		driver.findElement(By.id("email_create")).sendKeys("pvsk2003@gmail.com");
 		driver.findElement(By.id("email_create")).sendKeys(Keys.TAB);
 		driver.findElement(By.id("email_create")).sendKeys(Keys.ENTER);
 		

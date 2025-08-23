@@ -138,7 +138,7 @@ class CurrentAccount1 extends Account1 {
     }
 }
 
-public class lab2Program2 {
+public class lab2program2 {
     public static void main(String[] args) {
         Person1 smith = new Person1("Smith", 24);
         SavingsAccount1 smithAccount = new SavingsAccount1(366220002221326L, 2000, smith);

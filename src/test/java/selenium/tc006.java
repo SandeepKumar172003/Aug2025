@@ -7,7 +7,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class tc006
 {
-	public static void main(String[] args) throws InterruptedException 
+	public static void main(String[] args) throws Exception 
 	{
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
