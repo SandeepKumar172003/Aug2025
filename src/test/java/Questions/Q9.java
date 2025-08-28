@@ -13,7 +13,7 @@ public class Q9 {
   @Test
   public void f() {
 	  
-	  driver =new ChromeDriver();
+	  driver =new ChromeDriver();	
 	  driver.manage().window().maximize();
 
 	  driver.get("https://www.wikipedia.org");
